@@ -1,0 +1,88 @@
+[
+  {
+    "capture_base": {
+      "attributes": {
+        "score-value": "Text"
+      },
+      "classification": "",
+      "digest": "KX9HChaUrbM7g2O4gc3Kub3AqpjHpES7AyUbOPIT92eJ",
+      "type": "spec/capture_base/1.0"
+    },
+    "overlays": [
+      {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "score-value": "Placar"
+        },
+        "capture_base": "KX9HChaUrbM7g2O4gc3Kub3AqpjHpES7AyUbOPIT92eJ",
+        "category_labels": {},
+        "digest": "EwUUoqNySYZDg6fBI40fqWB8LxC3Rk9E1L8L717ZX3vs",
+        "language": "pt-BR",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "score-value": "Algum placar."
+        },
+        "capture_base": "KX9HChaUrbM7g2O4gc3Kub3AqpjHpES7AyUbOPIT92eJ",
+        "digest": "EPk2IQ_xZJfxclfq4b3uONJFsMHqCqeEj9TaVrocdT1s",
+        "language": "pt-BR",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "score-value": "Score"
+        },
+        "capture_base": "KX9HChaUrbM7g2O4gc3Kub3AqpjHpES7AyUbOPIT92eJ",
+        "category_labels": {},
+        "digest": "EReQYo9CylCu2Fgzr1jnarBYWef-8i76yegkBBUQz1Mo",
+        "language": "en",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "score-value": "Some score."
+        },
+        "capture_base": "KX9HChaUrbM7g2O4gc3Kub3AqpjHpES7AyUbOPIT92eJ",
+        "digest": "ERjttCynO4IH3FpsmYeRasLHcib10WO03drhS-yaFs70",
+        "language": "en",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
+        "capture_base": "KX9HChaUrbM7g2O4gc3Kub3AqpjHpES7AyUbOPIT92eJ",
+        "credential_help_text": "Ajuda do placar... nao sei pra que.",
+        "credential_support_url": "",
+        "description": "Uma credencial de placar... ",
+        "digest": "EKUrCoSycSKJwpNmn5qKRrWtoCvTbEZEaIf_zANcFuqE",
+        "issuer": "Romano",
+        "issuer_description": "BC tentant do Romano",
+        "issuer_url": "",
+        "language": "pt-BR",
+        "name": "Cred Placar",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "capture_base": "KX9HChaUrbM7g2O4gc3Kub3AqpjHpES7AyUbOPIT92eJ",
+        "credential_help_text": "Score help... dont know why.",
+        "credential_support_url": "",
+        "description": "A score credential... ",
+        "digest": "EKUrCoSycSKJwpNmn5qKRrWtoCvTbEZEaIf_zANcFuqE",
+        "issuer": "Romano",
+        "issuer_description": "Romano's BC tentant",
+        "issuer_url": "",
+        "language": "en",
+        "name": "Score credential",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "logo": "https://thiagoromanos.github.io/oca-resources/OCABundles/creddefid/score/logo.png",
+        "background_image": "https://thiagoromanos.github.io/oca-resources/OCABundles/creddefid/score/bgimg.jpg",
+        "primary_background_color": "#a9bf86",
+        "capture_base": "KX9HChaUrbM7g2O4gc3Kub3AqpjHpES7AyUbOPIT92eJ",
+        "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",
+        "type": "aries/overlays/branding/1.0"
+      }
+    ]
+  }
+]
