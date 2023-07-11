@@ -6,7 +6,8 @@
       },
       "classification": "",
       "digest": "KX9HChaUrbM7g2O4gc3Kub3AqpjHpES7AyUbOPIT92eJ",
-      "type": "spec/capture_base/1.0"
+      "type": "spec/capture_base/1.0",
+      "flagged_attributes": []
     },
     "overlays": [
       {
