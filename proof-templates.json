@@ -69,5 +69,65 @@
         }
       ]
     }
+  },
+  {
+    "id": "ClaroGOV",
+    "name": "Colaborador Claro + GovBR",
+    "description": "Solicitar uma prova da credencial de Colaborador Claro e Gov BR",
+    "version": "1.0",
+    "payload": {
+      "type": "anoncreds",
+      "data": [
+        {
+          "schema": "3puRmqKMFDrken5RfqCb16:3:CL:2164:default",
+          "requestedAttributes": [
+            {
+              "names": [
+                "name",
+                "email",
+                "departamento",
+                "cargo",
+                "cpf",
+                "data_de_nascimento",
+                "login",
+                "nome_da_mae",
+                "data_de_admissao",
+                "email_pessoal",
+                "telefone_pessoal"
+              ],
+              "label": "Colaborador Claro",
+              "restrictions": [
+                {
+                  "cred_def_id":"3puRmqKMFDrken5RfqCb16:3:CL:2164:default"
+                }
+              ],
+              "nonRevoked": {
+                  "to": "@{now}"
+               }
+            }
+          ]
+        },
+        {
+          "schema": "PgupyUhJajBX3p4tMFQuVo:3:CL:741:default",
+          "requestedAttributes": [
+            {
+              "names": [
+                "name",
+                "email",
+                "cpf",
+                "data_de_nascimento",
+                "nome_da_mae"
+              ],
+              "label": "id Govbr",
+              "restrictions": [
+                {
+                  "cred_def_id":"PgupyUhJajBX3p4tMFQuVo:3:CL:741:default"
+                }
+              ]              
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
