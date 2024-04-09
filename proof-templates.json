@@ -1,0 +1,33 @@
+[
+  {
+    id: "Prova GOVBR",
+    name: "Credencial GOVBR",
+    description: "Solicitar uma prova da credencial GOVBR",
+    version: "1.0",
+    payload: {
+      type: ProofRequestType.AnonCreds,
+      data: [
+        {
+          schema: "PgupyUhJajBX3p4tMFQuVo:3:CL:741:default",
+          requestedAttributes: [
+            {
+              names: [
+                "name",
+                "email",
+                "cpf",
+                "data_de_nascimento",
+                "nome_da_mae"
+              ],
+              label: "id Govbr",
+              restrictions: [
+                {
+                  cred_def_id:"PgupyUhJajBX3p4tMFQuVo:3:CL:741:default"
+                }
+              ]              
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
