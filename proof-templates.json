@@ -29,5 +29,45 @@
         }
       ]
     }
+  },
+  {
+    "id": "ColabClaro",
+    "name": "Colaborador Claro",
+    "description": "Solicitar uma prova da credencial de Colaborador Claro",
+    "version": "1.0",
+    "payload": {
+      "type": "anoncreds",
+      "data": [
+        {
+          "schema": "3puRmqKMFDrken5RfqCb16:3:CL:2164:default",
+          "requestedAttributes": [
+            {
+              "names": [
+                "name",
+                "email",
+                "departamento",
+                "cargo",
+                "cpf",
+                "data_de_nascimento",
+                "login",
+                "nome_da_mae",
+                "data_de_admissao",
+                "email_pessoal",
+                "telefone_pessoal"
+              ],
+              "label": "Colaborador Claro",
+              "restrictions": [
+                {
+                  "cred_def_id":"3puRmqKMFDrken5RfqCb16:3:CL:2164:default"
+                }
+              ],
+              "nonRevoked": {
+                  "to": "@{now}"
+               }
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
